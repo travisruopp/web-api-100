@@ -1,0 +1,17 @@
+@SoftwareCenter.Api_HostAddress = http://localhost:1337
+
+
+# Add A Vendor to the API
+
+POST {{SoftwareCenter.Api_HostAddress}}/commercial-vendors
+Content-Type: application/json 
+
+{
+    "name": "Jetbrains",
+    "site": "https://jetbrains.com",
+    "contactFirstName": "Khalid",
+    "contactLastName": "Abernathy",
+    "contactEmail": "khalid@jetbrains.com",
+    "contactPhone": "888 123-456"
+}
+
